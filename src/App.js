@@ -1,10 +1,11 @@
 
 import './App.css';
+import ImageGenerator from './Components/ImageGenerator/ImageGenerator';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div>
+     <ImageGenerator/>
     </div>
   );
 }

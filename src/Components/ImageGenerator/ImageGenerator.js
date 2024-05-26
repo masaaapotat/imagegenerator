@@ -1,4 +1,5 @@
 import React from 'react'
+import './ImageGenerator.css'
 
 const ImageGenerator = () => {
   return (
