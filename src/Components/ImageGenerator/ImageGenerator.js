@@ -18,10 +18,10 @@ const ImageGenerator = () => {
 
   return (
     <div className='ai-image-generator'>
-      <div className='header'>Ai <span>ImageGenerator</span></div>
+      <div className='header'>AI <span>ImageGenerator</span></div>
       <div className='image-loading'></div>
       <div className='image'>
-        <img src={default_image} alt='image'/>
+        <img src={default_image} alt=''/>
       </div>
       {/* Prompt examples displayed outside the search box */}
       <div className="prompt-examples">
